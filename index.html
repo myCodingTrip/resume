@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>马育的简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+<div class="container" id="cv">
+    <div class="side">
+        <div class="me">
+            <div class="portrait"></div>
+            <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="avatar-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+            <h1 id="username">马育</h1>
+            <h4 id="persona-tag">Java开发 / 大数据开发</h4>
+        </div>
+        <div class="profile info-unit">
+            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">姓名</label><span class="label-value">马育</span></li>
+                <li>
+                    <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                <li>
+                    <label class="left-label">毕业院校</label><span class="label-value">东北大学秦皇岛分校</span></li>
+                <li>
+                    <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+            </ul>
+        </div>
+        <div class="contact info-unit">
+            <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">手机</label><span class="label-value">17521218178</span></li>
+                <li>
+                    <label class="left-label">邮箱</label><span class="label-value">441015782@qq.com</span></li>
+                <li>
+                    <label class="left-label">个人主页</label><span class="label-value">www.cnblogs.com/mycd</span></li>
+                <li>
+                    <label class="left-label">Github</label><span class="label-value">github.com/myCodingTrip</span></li>
+            </ul>
+        </div>
+        <div class="skill info-unit">
+            <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+            <hr>
+            <ul class="progress-list">
+                <li>
+                    <label class="left-label">Java</label>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">Spark/Flink</label>
+                    <progress value="60" max="100"></progress>
+                </li>
+            </ul>
+        </div>
+        <div class="stack info-unit">
+            <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+            <hr>
+            <ul class="stack-list">
+                <li>
+                    <label class="left-label">后端</label><span class="label-value">Java、MySQL、Redis</span>
+                </li>
+                <li>
+                    <label class="left-label">前端</label><span class="label-value">jQuery、EasyUI</span></li>
+                </li>
+                </li>
+                <li>
+                    <label class="left-label">其它</label><span class="label-value">Linux</span></li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="code info-unit">
+            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+            <hr>
+            <div class="weixin">
+                <img src="static/image/weixin.png" alt="">
+
+            </div>
+        </div>
+        <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+            <h3>请输入图片URL地址：</h3>
+            <br/>
+            <input type="text" id="weixin-url">
+            <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="education info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>东北大学秦皇岛分校 - 计算机科学与技术专业（本科）2013-2017</h3>
+                    <p>
+                        在校期间通过英语四级考试。
+                        主修课程包括程序设计、数据结构、算法设计与分析、计算机组成原理、操作系统、计算机网络、编译原理、数据库原理、人工智能等。
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="work info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>北京东方国信－软件开发（2019年4月-至今）</h3>
+                    <p>
+                        参与了CirroStream、健康大盘项目的前后端开发及运维工作。
+                    </p>
+                </li>
+                <li>
+                    <h3>上海万达信息－软件开发（2017年7月-2019年3月）</h3>
+                    <p>
+                        参与了宁波局大数据平台及其它项目的前后端开发及运维工作。
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="project info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>流式处理平台CirroStream</h3>
+                    <p>
+                        CirroStream是一套依托于Apache Flink构建的一站式、高性能实时大数据处理平台。
+                        技术栈包括Flink、Kafka、RabbitMq、Redis、Hadoop、HBase、Elasticsearch、H2等。
+                    </p>
+                </li>
+            </ul>
+            <ul class="experience-list">
+                <li>
+                    <h3>宁波局大数据平台（云搜索）</h3>
+                    <p>
+                        为某政府机构提供大数据的云搜索功能，同时包括人物电子档案、关系展示、大数据作业管理等功能。
+                        技术栈包括Spring、springMVC、Oracle、HBase、sqoop、 spark、elasticsearch、html、css、js、jQuery、EasyUI、d3.js等
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="trophy info-unit">
+            <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>工信部蓝桥杯C/C++全国三等奖</h3>
+                    <p>
+                    </p>
+                </li>
+                <li>
+                    <h3>工信部蓝桥杯Java河北省一等奖</h3>
+                    <p>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="aboutme info-unit right-paragraph">
+            <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+            <hr>
+            <p>
+                熟悉Java语言，了解常用设计模式，数据结构和算法，研究过JDK底层源码。对Hadoop、Flink、Spark等大数据框架有一定的研究和使用经验。
+                熟悉Mysql、Oracle等关系型数据库，熟悉Hbase、Redis等非关系型数据库，熟悉Kafka、Rabbitmq等消息队列。希望能够从事大数据和Java相关的工作。
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
